@@ -1,2 +1,5 @@
 @import 'reset.css';
 @import 'login.css';
+@import 'layout.css';
+@import 'main.css';
+@import "../node_modules/bootstrap/scss/bootstrap";
