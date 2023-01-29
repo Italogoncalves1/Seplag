@@ -2,7 +2,7 @@
 
 .navbar{
     height: 70px;
-    background-color: #0084CF;
+    background: linear-gradient(90deg, #0084CF -3.19%, #01B2AC 106.78%);
     display: flex;
     align-items: center ;
     justify-content: space-between;
@@ -22,13 +22,12 @@
 }
 
 .buttonNavBar {
-    background-color: #3b9fd8;
+    background: transparent;
     height: 60px;
     width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 2px #0171B8; 
 } 
 
 .buttonNavBar:hover{
@@ -38,7 +37,6 @@
 div.flex-dashboard {
     display: flex;
     flex-direction: row;
-    height: 100%;
     width: 100%;
 }
 
@@ -65,6 +63,10 @@ ul{
     border-top: 1px solid #0171B8;
     border-bottom: 1px solid #0171B8;
 }
+.main-content{
+    height: 100%;
+    max-width: 100%;
+}
 
 ul:hover {
     background-color: #0171B8;
@@ -78,6 +80,7 @@ sidebar .sidebar-title {
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
+    width: 300px;
 }
 
 .profile{
