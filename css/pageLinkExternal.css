@@ -1,0 +1,69 @@
+.content {
+  background-image: url(../assets/fundo.svg);
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  margin: 0;
+  padding: 0;
+}
+
+.contentLink {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  box-sizing: border-box;
+}
+
+.sectionLink {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionLink {
+  margin: 0;
+  font-family: Gotham;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #fff;
+}
+
+.linkExternal {
+  margin: 0;
+  font-family: "Gotham";
+  color: #ffffff;
+  font-family: Gotham;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 77px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.smile {
+  margin: 0;
+  font-family: "Gotham";
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 115px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.buttonLink {
+  height: 60px;
+  width: 300px;
+  background-color: #ab78f7;
+  box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+}

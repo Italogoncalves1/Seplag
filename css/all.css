@@ -3,5 +3,6 @@
 @import 'layout.css';
 @import 'home.css';
 @import 'header.css';
-@import 'content.html';
+@import 'content.css';
+@import 'pageLinkExternal.css';
 @import "../node_modules/bootstrap/scss/bootstrap";
