@@ -1,0 +1,9 @@
+.imgNoticias {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.cardNoticias {
+  background-color: rgba(0, 0, 0, 0.03);
+  margin-bottom: 40px;
+  padding: 20px;
+}

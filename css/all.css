@@ -1,1 +1,12 @@
 @import 'reset.css';
+@import 'login.css';
+@import 'layout.css';
+@import 'home.css';
+@import 'header.css';
+@import 'content.css';
+@import 'pageLinkExternal.css';
+@import 'carrossel.css';
+@import 'galeriasecundaria.css';
+@import 'noticias.css';
+@import 'noticiasSencundarias.css';
+@import "../node_modules/bootstrap/scss/bootstrap";
