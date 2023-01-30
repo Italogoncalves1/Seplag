@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.navbar{
+.navbarr{
     height: 70px;
     background: linear-gradient(90deg, #0084CF -3.19%, #01B2AC 106.78%);
     display: flex;
@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 } 
 
 .buttonNavBar:hover{
@@ -38,6 +39,7 @@ div.flex-dashboard {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 100%;
 }
 
 sidebar {
@@ -51,7 +53,6 @@ sidebar {
 main {
     display: block;
     height: 100%;
-    width: calc(100% - 300px);
 }
 ul{
     color: white;
@@ -104,3 +105,22 @@ footer {
     height: 64px;
     background-color: #0084CF;
 }
+.brasaoHome {
+    width: 413px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+.iconFooter{
+    height: 30px;
+    margin: 5px;
+}
+.footerCopyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0171b8;
+    color: white;
+    height: 70px;
+  }
+
