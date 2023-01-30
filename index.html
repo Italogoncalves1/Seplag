@@ -12,14 +12,20 @@
       crossorigin="anonymous"
     >
 </script>
+
+</script>
     <script>
       $(function () {
         $("#header").load("header.html");
         $("#content").load("content.html");
         $("#footer").load("footer.html");
+        
       });
       function switchPage(page) {
-   $(`#content`).load(`${page}.html`);
+   $.get(`${page}.html`,function(html){
+    $("#content").html(html);
+
+   })
 }
     </script>
   </head>
@@ -101,8 +107,11 @@
               </div>
             </div>
           </sidebar>
-       <div id="content"></div>
+       <div style="height: 100%; width: 100%;" id="content">
+        
+       </div>
+       
     </div>
-    <footer id="footer"></footer>
+    <footer style="height: 30%;" id="footer"></footer>
   </body>
 </html>
