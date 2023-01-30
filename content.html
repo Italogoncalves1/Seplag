@@ -1,51 +1,5 @@
-<!-- <script>
-  document.getElementById("carrossel").innerHTML = [
-    {
-      id: "1",
-      name: "Feriado á vista!",
-      date: "22/06/2022",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.",
-      autor: "Seplag",
-    },
-     {
-      id: "2",
-      name: "Novo curso Egal",
-      date: "20/06/2022",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.",
-      autor: "Seplag",
-    },
-    {
-      id: "3",
-      name: "Reunião Geral",
-      date: "20/06/2022",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.",
-      autor: "Seplag",
-    }, 
-  ]
-    .map(
-      (item) =>
-        `<div onclick="switchPage('noticias')" id="noticias"> 
-
-          <div style = "display:flex">
-            <div  style="display: flex; justify-content: space-between;">
-              <div class="nameNoticiasHome">${item.name}</div>
-              <div class="dateNoticiasHome">${item.date}</div>
-
-            </div>
-            <div class="descriptionNoticiasHome">${item.description}   
-           </div>
-
-          <button > Leia mais </button>
-            `
-    )
-    .join("");
-</script> -->
-
 <main class="main-content;">
-  <div style="margin: 60px 60px 30px 60px;">
+  <div style="margin: 60px 60px 30px 60px">
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -106,28 +60,95 @@
       <p class="titleHome">ÚLTIMAS NOTÍCIAS</p>
 
       <div class="carrosselImg">
-        <div class="imgNoticias" onclick="switchPage('noticias')">
-
-          <div style="display: flex; align-items: center; justify-content: space-between;">
-            <div class="nameNoticiasHome">
-              Feriado á vista!
-            </div>
-            <div class="dateNoticiasHome">
-             22/06/2020
-            </div>
+        <div
+          class="imgNoticias"
+          onclick="switchPage('noticias')"
+          style="padding: 10px; margin-right: 10px; border-radius: 10px"
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div class="nameNoticiasHome">Feriado á vista!</div>
+            <div class="dateNoticiasHome">22/06/2020</div>
           </div>
 
-          <div 
-          class="descriptionNoticiasHome">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
+          <div class="descriptionNoticiasHome">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu
+            molestie est, ac sollicitudin ligula. Curabitur nec enim et justo
+            aliquam tristique ac eget orci. Quisque tempor neque nibh,
+            pellentesque rutrum orci commodo quis. Curabitur volutpat erat et
+            elit rutrum ornare. Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas. Pellentesque laoreet
+            sem nisi, in viverra metus euismod et. Aenean a eros id diam
+            consequat sodales.
           </div>
-          
+          <button style="background: rgba(0, 132, 207, 1); color: white">
+            Veja mais
+          </button>
         </div>
-        <div class="imgNoticias" onclick="switchPage('noticias')">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
+        <div
+          class="imgNoticias"
+          onclick="switchPage('noticias')"
+          style="padding: 10px; margin-right: 10px; border-radius: 10px"
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div class="nameNoticiasHome">Feriado á vista!</div>
+            <div class="dateNoticiasHome">22/06/2020</div>
+          </div>
+
+          <div class="descriptionNoticiasHome">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu
+            molestie est, ac sollicitudin ligula. Curabitur nec enim et justo
+            aliquam tristique ac eget orci. Quisque tempor neque nibh,
+            pellentesque rutrum orci commodo quis. Curabitur volutpat erat et
+            elit rutrum ornare. Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas. Pellentesque laoreet
+            sem nisi, in viverra metus euismod et. Aenean a eros id diam
+            consequat sodales.
+          </div>
+          <button style="background: rgba(0, 132, 207, 1); color: white">
+            Veja mais
+          </button>
         </div>
-        <div class="imgNoticias" onclick="switchPage('noticias')">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
+        <div
+          class="imgNoticias"
+          onclick="switchPage('noticias')"
+          style="padding: 10px; margin-right: 10px; border-radius: 10px"
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <div class="nameNoticiasHome">Feriado á vista!</div>
+            <div class="dateNoticiasHome">22/06/2020</div>
+          </div>
+
+          <div class="descriptionNoticiasHome">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu
+            molestie est, ac sollicitudin ligula. Curabitur nec enim et justo
+            aliquam tristique ac eget orci. Quisque tempor neque nibh,
+            pellentesque rutrum orci commodo quis. Curabitur volutpat erat et
+            elit rutrum ornare. Pellentesque habitant morbi tristique senectus
+            et netus et malesuada fames ac turpis egestas. Pellentesque laoreet
+            sem nisi, in viverra metus euismod et. Aenean a eros id diam
+            consequat sodales.
+          </div>
+          <button style="background: rgba(0, 132, 207, 1); color: white">
+            Veja mais
+          </button>
         </div>
       </div>
 
